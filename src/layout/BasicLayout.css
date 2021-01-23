@@ -1,0 +1,22 @@
+
+.layout-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.layout-header-title {
+  color: white;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+}
+
+.layout-body-content {
+  height: calc(100vh - 94px);
+  margin: 15px;
+  padding: 15px;
+  background: white;
+  border-radius: 7px;
+  box-shadow: 0 0 70px #d3d3d3;
+}
