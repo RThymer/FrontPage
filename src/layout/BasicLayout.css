@@ -20,3 +20,8 @@
   border-radius: 7px;
   box-shadow: 0 0 70px #d3d3d3;
 }
+
+.layout-nav-item {
+  display: flex;
+  align-items: center;
+}
