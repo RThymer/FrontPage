@@ -7,6 +7,30 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  transition: 0.3s all ease-in-out;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 12px;
+  background-color: #fff;
+}
+
+::-webkit-scrollbar-thumb {
+  display: block;
+  min-height: 12px;
+  min-width: 8px;
+  border-radius: 6px;
+  background-color: rgb(217, 217, 217);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  display: block;
+  min-height: 12px;
+  min-width: 8px;
+  border-radius: 6px;
+  background-color: rgb(159, 159, 159);
 }
 
 code {

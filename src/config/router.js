@@ -1,11 +1,12 @@
-import { AccountBookOutlined, DatabaseOutlined } from "@ant-design/icons";
+import { DatabaseOutlined, BugFilled } from "@ant-design/icons";
+import Blogs from "../pages/articles/blogs";
 
 export default [
   {
-    path: "/about",
-    name: "about",
-    component: () => <div>about</div>,
-    icon: AccountBookOutlined,
+    path: "/blogs",
+    name: "Blogs",
+    component: Blogs,
+    icon: BugFilled,
   },
   {
     path: "/product",
