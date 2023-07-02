@@ -1,5 +1,6 @@
 import { DatabaseOutlined, BugFilled } from "@ant-design/icons";
 import Blogs from "../pages/articles/blogs";
+import Production from "../pages/production";
 
 export default [
   {
@@ -11,7 +12,7 @@ export default [
   {
     path: "/product",
     name: "product",
-    component: () => <div>product</div>,
+    component: Production,
     icon: DatabaseOutlined,
   },
 ];
